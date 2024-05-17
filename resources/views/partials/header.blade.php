@@ -1,4 +1,4 @@
 <header class="container"> 
-    <img src="../../../public/img/logo.png" alt="logo">
-    <h1 class="">la mia prima pagina con laravel</h1>
+    <h1 >la mia prima pagina con</h1>
+    <img src="../img/logo.png" alt="logo">
 </header>
