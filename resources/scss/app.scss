@@ -10,5 +10,16 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
 h1 {
-    color: $text-color;
+    text-transform: uppercase;
+}
+body{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+header img{
+
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
 }

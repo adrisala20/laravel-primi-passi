@@ -4,7 +4,7 @@
 
 @section('content')
 <main>
-    <h1>Home page</h1>
+    <h2></h2>
 </main>
 
 @endsection
