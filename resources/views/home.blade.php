@@ -4,7 +4,11 @@
 
 @section('content')
 <main>
-    <h2></h2>
+    <div class="container">
+        <a href="blog">blog</a>
+        <h2> Questa é la mia home page, io sono
+        {{ $data['name']}} {{$data ['surname']}}</h2>
+    </div>
 </main>
 
 @endsection

@@ -19,14 +19,33 @@ body{
     padding-left: 20px;
 }
 header {
+    height: 100px;
+    .title{
     display: flex;
     align-items: center;
+    }
     img{
     height: 10em;
     padding-left: 10px;
     }
 }
+main{
+    text-align: end;
+    padding-top: 20px;
+    height: calc(100vh - 190px);
+    a{
+        padding-top: 20px;
+        text-transform: capitalize;
+        color: $text-color;
+        text-decoration: none;
+    }
+    a:hover{
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
 footer{
+    height: 90px;
     text-align: center;
     text-transform: capitalize;
 }
